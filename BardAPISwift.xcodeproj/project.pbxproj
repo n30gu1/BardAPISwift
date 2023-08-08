@@ -11,6 +11,8 @@
 		B23C83112A5BF5A200A9BA9C /* BardAPISwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23C83062A5BF5A200A9BA9C /* BardAPISwift.framework */; };
 		B23C83162A5BF5A200A9BA9C /* BardAPISwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23C83152A5BF5A200A9BA9C /* BardAPISwiftTests.swift */; };
 		B23C83172A5BF5A200A9BA9C /* BardAPISwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B23C83092A5BF5A200A9BA9C /* BardAPISwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23C83212A5BF5B400A9BA9C /* BardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23C83202A5BF5B400A9BA9C /* BardAPI.swift */; };
+		B23C83232A5BF63E00A9BA9C /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23C83222A5BF63E00A9BA9C /* Chat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		B23C830A2A5BF5A200A9BA9C /* BardAPISwift.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = BardAPISwift.docc; sourceTree = "<group>"; };
 		B23C83102A5BF5A200A9BA9C /* BardAPISwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BardAPISwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23C83152A5BF5A200A9BA9C /* BardAPISwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BardAPISwiftTests.swift; sourceTree = "<group>"; };
+		B23C83202A5BF5B400A9BA9C /* BardAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BardAPI.swift; sourceTree = "<group>"; };
+		B23C83222A5BF63E00A9BA9C /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				B23C83092A5BF5A200A9BA9C /* BardAPISwift.h */,
 				B23C830A2A5BF5A200A9BA9C /* BardAPISwift.docc */,
+				B23C83202A5BF5B400A9BA9C /* BardAPI.swift */,
+				B23C83222A5BF63E00A9BA9C /* Chat.swift */,
 			);
 			path = BardAPISwift;
 			sourceTree = "<group>";
@@ -194,6 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23C83212A5BF5B400A9BA9C /* BardAPI.swift in Sources */,
+				B23C83232A5BF63E00A9BA9C /* Chat.swift in Sources */,
 				B23C830B2A5BF5A200A9BA9C /* BardAPISwift.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 		B23C831E2A5BF5A200A9BA9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 98882K9P37;
@@ -423,6 +432,7 @@
 		B23C831F2A5BF5A200A9BA9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 98882K9P37;
